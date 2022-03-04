@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(42 96 96);
+    color: #fff;
+    font-family: ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
+}
+
+.crud{
+    width: 80%;
+    margin: auto;
+}
+
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+#title{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(240, 230, 230, 0.829);
+    border-radius: 5px;
+}
+
+.price {
+    display: flex;
+    gap: 5px;
+    margin: 5px 0;
+   
+}
+
+.price input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+
+    border-radius: 5px;
+    background-color: rgba(240, 230, 230, 0.829);
+    
+}
+
+#category{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgba(240, 230, 230, 0.829);
+    border-radius: 5px;
+}
+
+
+.inputs button{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px;
+    border: none;
+    background-color: rgba(240, 230, 230, 0.829);
+    border-radius: 5px;
+    transition: 0.5s;
+    
+}
+
+.inputs button:hover{
+    letter-spacing: 1px;
+    background: rgb(165, 37, 37);
+    
+}
+
+
+#total{
+    background: rgb(165, 37, 37);
+    padding: 9px 7px;
+    border-radius: 16px;
+    display: inline-flex;
+}
+
+#total::before{
+    content: 'Total: ';
+
+}
+
+#count{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: rgba(240, 230, 230, 0.829);
+    border-radius: 5px;
+}
+
+.search-block #search{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: rgba(240, 230, 230, 0.829);
+    border-radius: 5px;
+}
+
+.btn-search {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn-search button{
+    width: 45%;
+    padding: 10px 0;
+    margin: 5px;
+    border: none;
+    background-color: rgba(240, 230, 230, 0.829);
+    border-radius: 5px;
+    transition: 0.5s;
+    
+}
+
+.btn-search button:hover{
+    letter-spacing: 1px;
+    background: rgb(165, 37, 37);
+}
+
+#delete-all button{
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: rgba(240, 230, 230, 0.829);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+table th{
+    text-transform: uppercase;
+}
+
+th, td{
+    padding: 5px;
+}
+
+table button{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px;
+    border: none;
+    background-color: rgba(240, 230, 230, 0.829);
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+table #update{
+    letter-spacing: 1px;
+    background: rgb(128 99 255);
+}
+
+table #delete{
+    letter-spacing: 1px;
+    background: rgb(209 62 49);
+
+}
